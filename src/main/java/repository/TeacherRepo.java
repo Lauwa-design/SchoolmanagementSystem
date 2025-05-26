@@ -1,4 +1,4 @@
 package repository;
 
-public class StaffRepo {
+public class TeacherRepo {
 }

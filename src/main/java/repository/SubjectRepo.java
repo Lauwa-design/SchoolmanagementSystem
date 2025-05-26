@@ -1,4 +1,4 @@
 package repository;
 
-public class StudentRepo {
+public class SubjectRepo {
 }
