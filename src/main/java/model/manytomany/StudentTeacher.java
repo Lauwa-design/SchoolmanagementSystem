@@ -17,11 +17,12 @@ public class StudentTeacher{
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
 
-    @ManyToMany // what container ,join table??
-    private Student student;
+   @ManyToOne
+   private Teacher teacher;
 
-    @ManyToMany
-    private Teacher teacher;
+
+   @ManyToOne
+   private Student student;
 
 
 }

@@ -1,9 +1,14 @@
 package model;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-
-import java.util.Set;
-
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 @Entity
 public class Student {
     @Id @GeneratedValue
@@ -11,11 +16,9 @@ public class Student {
     private String firstName;
     private String lastName;
     private int age;
-
     @ManyToOne
     private ClassEntity classEntity;
 
-    @ManyToMany
-    private Set<Student> students;
+
 
 }
