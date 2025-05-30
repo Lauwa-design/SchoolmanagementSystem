@@ -15,7 +15,7 @@ import lombok.Setter;
 @Entity
 public class Staff {
     @Id @GeneratedValue
-    private int Id;
+    private Integer Id;
     private String firstName;
     private String lastName;
     private String email;

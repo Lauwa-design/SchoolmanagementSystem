@@ -14,7 +14,7 @@ import lombok.Setter;
 @Entity
 public class Teacher {
     @Id @GeneratedValue
-    private int id;
+    private Integer id;
 
     private String firstName;
     private String lastName;

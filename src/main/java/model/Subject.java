@@ -14,7 +14,7 @@ import lombok.Setter;
 @Entity
 public class Subject {
     @Id @GeneratedValue
-    private int id;
+    private Integer id;
     private String subjectName;
 
     @ManyToOne

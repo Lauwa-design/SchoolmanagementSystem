@@ -14,7 +14,7 @@ import lombok.Setter;
 @Entity
 public class ClassEntity {
     @Id @GeneratedValue
-    private int id;
+    private Integer id;
     @Column(unique=true)
     private String className;
 
